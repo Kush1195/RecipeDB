@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="558px"
+        android:layout_height="match_parent"
+        android:background="@drawable/popup_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/tp"
+            android:scaleType="centerCrop"
+            android:layout_width="549px"
+            android:layout_height="447px" />
+
+        <LinearLayout
+            android:paddingTop="@dimen/_16sdp"
+            android:paddingLeft="@dimen/_16sdp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/home_press"
+                android:src="@drawable/home_unpress"
+                android:layout_width="464px"
+                android:layout_height="100px" />
+
+            <ImageView
+                android:src="@drawable/devider"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/rate_us"
+                android:src="@drawable/rate_us_unpress"
+                android:layout_width="464px"
+                android:layout_height="100px"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:src="@drawable/devider"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/more_app"
+                android:src="@drawable/more_apps_unpress"
+                android:layout_width="464px"
+                android:layout_gravity="center"
+                android:layout_height="100px" />
+
+            <ImageView
+                android:src="@drawable/devider"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/share_app"
+                android:layout_gravity="center"
+                android:src="@drawable/share_apps_unpress"
+                android:layout_width="464px"
+                android:layout_height="100px" />
+
+            <ImageView
+                android:src="@drawable/devider"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:src="@drawable/devider"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
